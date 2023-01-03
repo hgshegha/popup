@@ -1,70 +1,142 @@
 
+.button{
+    font-family: 'Roboto Condensed', sans-serif;
 
-.fa-facebook-messenger{
-    position: fixed;
-    bottom: 10px;
-    font-size: 40px;
-    left: 10px;
-    cursor: pointer;
+    border: none;
+    background: blue;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Unbounded', cursive;
 }
 
-.noScroll {
-    overflow-y: hidden;
+.button:hover{
+    opacity: 0.7;
 }
 
-.frm{
-    display: flex;
-    flex-direction: column;
-}
 
-.popup-client{
-    width: 300px;
-    background-color: cadetblue;
-    position: absolute;
-    top: 35%;
-    left: 40%;
-    padding: 25px;
-}
 
-.pb{
-    position: fixed;
+.message-wrapper {
+    /* position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    background: rgb(83, 83, 83);
-    opacity: 0.8;
-    
-}
-
-.fa-times{
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    cursor: pointer;
-}
-
-.test {
-    width: 50px;
+    width: 50%;
+    height: 50%;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3); */
+    display: none;
+    border: 1px solid white;
+    position: fixed;
+    top: 17%;
+    left: 24%; 
+    padding: 40px;
+    border-radius: 20px;
+    background-color:white;
+    z-index: 2;
+}
+
+.message {
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100%;
+    opacity: 0.2;
+} 
+
+.text-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    text-align: left;
+    width: 30%;
+}
+
+.img img{
+    width: 100%;
+}
+
+
+.m{
+    z-index: 1;
+}
+
+#text1{
+    color:  blue;
+}
+
+#text2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#text3{
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+
+.btns{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+    margin-left: 20px;
+}
+
+
+#first-btn{
+    border: none;
+    background: none;
+    color: orange ;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#second-btn{
+    border: none;
+    padding: 10px;
+    background-color: rgb(1, 203, 1);
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 
 
 
-  .open-popup-client {
-    opacity: 1;
+/* .filters__img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
   }
   
-  .open-popup-client:hover {
-    opacity: 0.6;
+  .filters__img img {
+    width: initial;
+    height: 100%;
   }
-
-
-
-  .animate__animated.animate__tada {
-    --animate-duration: 1s;
-  }
+  
+  .box{
+  display: flex;
+  } */
